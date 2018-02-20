@@ -52,7 +52,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions colored-man-pages zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,11 +84,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias her="cd ~/workspace/hercules"
-alias demo="cd ~/workspace/demo"
-alias astx="cd ~/workspace/asteriskapi"
-alias lll="ls -alh"
-alias gitlog="git log --graph --decorate --oneline"
 
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
