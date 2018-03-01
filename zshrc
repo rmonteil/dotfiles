@@ -93,3 +93,4 @@ autoload -Uz compinit && compinit -i
 DEFAULT_USER="robin"
 prompt_context(){}
 
+. /usr/share/autojump/autojump.sh
