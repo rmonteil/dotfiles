@@ -1,0 +1,48 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+k",
+        "command": "git.commit"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "git.commitAll"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+shift+alt+k",
+        "command": "git.pushTo"
+    },
+    {
+        "key": "ctrl+[Backslash]",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+[Backslash]",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "ctrl+shift+[Quote]",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "ctrl+[Quote]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen"
+    },
+    {
+        "key": "ctrl+[Period]",
+        "command": "workbench.action.splitEditor"
+    }
+]
