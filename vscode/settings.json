@@ -3,7 +3,6 @@
   "php.validate.executablePath": "/usr/bin/php7.1",
   "editor.minimap.enabled": false,
   "editor.fontLigatures": true,
-  "workbench.iconTheme": "vscode-icons",
   "todohighlight.isCaseSensitive": false,
   "todohighlight.keywordsPattern": "\/\/ *(todo|fix(?:me)?)[^\n\r]*",
   "todohighlight.exclude": [
@@ -42,5 +41,6 @@
   "workbench.colorTheme": "One Dark Pro Vivid",
   "editor.tabSize": 4,
   "extensions.ignoreRecommendations": false,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "seti"
 }
