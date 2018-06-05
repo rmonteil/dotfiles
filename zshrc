@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/robin/.oh-my-zsh
+export ZSH=/home/robin/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -84,6 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ip='ip --color'
+alias ipb='ip --color --brief'
 
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
@@ -94,3 +96,6 @@ DEFAULT_USER="robin"
 prompt_context(){}
 
 . /usr/share/autojump/autojump.sh
+
+export NVM_DIR="/home/robin/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
