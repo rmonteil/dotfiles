@@ -84,6 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ip='ip --color'
+alias ipb='ip --color --brief'
 
 # fpath=(~/.zsh/completion $fpath)
 # autoload -Uz compinit && compinit -i
@@ -94,7 +96,7 @@ DEFAULT_USER="robin"
 prompt_context(){}
 
 . /usr/share/autojump/autojump.sh
-export PATH=~/bin:$PATH
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+export NVM_DIR="/home/robin/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export PATH=~/bin:$PATH

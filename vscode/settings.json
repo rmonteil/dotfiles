@@ -38,10 +38,14 @@
   "explorer.autoReveal": false,
   "search.useIgnoreFiles": true,
   "git.autofetch": true,
-  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.colorTheme": "GitHub Plus",
   "editor.tabSize": 4,
   "extensions.ignoreRecommendations": false,
   "editor.formatOnSave": true,
   "workbench.iconTheme": "seti",
-  "breadcrumbs.enabled": true
+  "breadcrumbs.enabled": true,
+  "rust-client.channel": "nightly",
+  "files.autoSave": "off",
+  "typescript.locale": "fr",
+  "rust.build_on_save": true
 }
