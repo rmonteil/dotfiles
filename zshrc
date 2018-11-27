@@ -52,7 +52,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions colored-man-pages zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions colored-man-pages zsh-syntax-highlighting  docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -85,8 +85,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-fpath=(~/.zsh/completion $fpath)
-autoload -Uz compinit && compinit -i
+# fpath=(~/.zsh/completion $fpath)
+# autoload -Uz compinit && compinit -i
 
 #eval `dircolors ~/.dir_colors/dircolors`
 
@@ -95,3 +95,6 @@ prompt_context(){}
 
 . /usr/share/autojump/autojump.sh
 export PATH=~/bin:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
