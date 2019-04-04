@@ -84,13 +84,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ip='ip --color'
-alias ipb='ip --color --brief'
-
-# fpath=(~/.zsh/completion $fpath)
-# autoload -Uz compinit && compinit -i
-
-#eval `dircolors ~/.dir_colors/dircolors`
+# alias ip='ip --color'
+# alias ipb='ip --color --brief'
+source ~/.aliases
 
 DEFAULT_USER="robin"
 prompt_context(){}
