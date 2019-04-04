@@ -49,5 +49,6 @@
   "typescript.locale": "fr",
   "rust.build_on_save": true,
   "window.menuBarVisibility": "toggle",
-  "window.titleBarStyle": "native"
+  "window.titleBarStyle": "native",
+  "files.insertFinalNewline": true
 }
