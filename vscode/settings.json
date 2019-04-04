@@ -42,10 +42,12 @@
   "editor.tabSize": 4,
   "extensions.ignoreRecommendations": false,
   "editor.formatOnSave": true,
-  "workbench.iconTheme": "seti",
+  "workbench.iconTheme": "vscode-icons",
   "breadcrumbs.enabled": true,
   "rust-client.channel": "nightly",
   "files.autoSave": "off",
   "typescript.locale": "fr",
-  "rust.build_on_save": true
+  "rust.build_on_save": true,
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "native"
 }

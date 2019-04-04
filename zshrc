@@ -100,3 +100,6 @@ prompt_context(){}
 export NVM_DIR="/home/robin/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export PATH=~/bin:$PATH
+
+source $HOME/.zshenv
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
