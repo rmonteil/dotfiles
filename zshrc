@@ -52,7 +52,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions colored-man-pages zsh-syntax-highlighting  docker docker-compose)
+plugins=(git zsh-autosuggestions colored-man-pages zsh-syntax-highlighting docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,13 +84,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ip='ip --color'
-alias ipb='ip --color --brief'
-
-# fpath=(~/.zsh/completion $fpath)
-# autoload -Uz compinit && compinit -i
-
-#eval `dircolors ~/.dir_colors/dircolors`
+# alias ip='ip --color'
+# alias ipb='ip --color --brief'
+source ~/.aliases
 
 DEFAULT_USER="robin"
 prompt_context(){}
