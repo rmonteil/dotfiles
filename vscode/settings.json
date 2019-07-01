@@ -17,7 +17,6 @@
     "**/build": true,
     "**/jest_*": true
   },
-  "vsicons.dontShowNewVersionMessage": true,
   "editor.fontFamily": "'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
   "terminal.integrated.fontFamily": "'Droid Sans Mono for Powerline', 'Courier New', monospace, 'Droid Sans Fallback'",
   "explorer.autoReveal": false,
@@ -26,7 +25,6 @@
   "editor.tabSize": 4,
   "extensions.ignoreRecommendations": false,
   "editor.formatOnSave": true,
-  "workbench.iconTheme": "vscode-icons",
   "breadcrumbs.enabled": true,
   "rust-client.channel": "nightly",
   "files.autoSave": "off",
@@ -54,5 +52,6 @@
   "telemetry.enableTelemetry": false,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "One Dark Pro"
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "seti"
 }
