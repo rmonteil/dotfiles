@@ -61,5 +61,9 @@
     {
         "key": "ctrl+s",
         "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+alt+g",
+        "command": "git-graph.view"
     }
 ]
