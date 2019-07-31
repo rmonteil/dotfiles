@@ -96,3 +96,10 @@ prompt_context(){}
 export NVM_DIR="/home/robin/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export PATH=~/bin:$PATH
+
+# Ruby
+if [ -d "$HOME/gems" ]; then
+  export GEM_HOME=$HOME/gems
+  export PATH=$HOME/gems/bin:$PATH
+fi
+
